@@ -50,7 +50,7 @@ brews:
       token: "{{ .Env.TAP_GITHUB_TOKEN }}"
       git:
         url: "git@github.com:yogeshbhutkar/homebrew-tools.git"
-        private_key: "{{ .Env.GIT_PRIVATE_KEY }}"
+        private_key: "{{ .Env.TAP_GITHUB_TOKEN }}"
 
 release:
   footer: >-
