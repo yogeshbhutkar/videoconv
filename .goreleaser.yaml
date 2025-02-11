@@ -33,16 +33,21 @@ changelog:
       - "^test:"
 
 brews:
-- name: videoconv
-  homepage: https://github.com/yogeshbhutkar/homebrew-tools
-  directory: Formula
-  repository:
-    owner: yogeshbhutkar
-    name: homebrew-tools
-    token: "{{ .Env.TAP_GITHUB_TOKEN }}"
-  commit_author:
-    name: goreleaserbot
-    email: bot@goreleaser.com
+  - name: videoconv
+    commit_author:
+      name: yogeshbhutkar
+      email: pseudonetwork1001@gmail.com
+    commit_msg_template: "Brew formula update for {{ .ProjectName }} version {{ .Tag }}"
+    directory: Formula
+    install: |
+      bin.install "videoconv"
+    test: |
+      system "#{bin}/videoconv --version"
+    repository:
+      owner: yogeshbhutkar
+      name: homebrew-tools
+      branch: main
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
 
 release:
   footer: >-
