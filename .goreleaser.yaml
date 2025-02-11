@@ -32,6 +32,13 @@ changelog:
       - "^docs:"
       - "^test:"
 
+brews:
+- name: videoconv
+  homepage: https://github.com/yogeshbhutkar/homebrew-tools 
+  tap:
+    owner: yogeshbhutkar
+    name: homebrew-tools
+
 release:
   footer: >-
 
