@@ -38,7 +38,7 @@ brews:
       name: goreleaserbot
       email: goreleaserbot@example.com
     commit_msg_template: "Brew formula update for {{ .ProjectName }} version {{ .Tag }}"
-    folder: Formula
+    directory: Formula
     install: |
       bin.install "videoconv"
     test: |
