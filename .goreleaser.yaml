@@ -36,7 +36,7 @@ brews:
   - name: videoconv
     commit_author:
       name: yogeshbhutkar
-      email: pseudonetwork1001@gmail.com
+      email: yogesh.bhutkar@rtcamp.com
     commit_msg_template: "Brew formula update for {{ .ProjectName }} version {{ .Tag }}"
     directory: Formula
     install: |
