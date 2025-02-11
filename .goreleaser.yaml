@@ -33,12 +33,12 @@ changelog:
       - "^test:"
 
 brews:
-  - name: videoconv
+  - name: homebrew-tools
     commit_author:
-      name: yogeshbhutkar
-      email: yogesh.bhutkar@rtcamp.com
+      name: goreleaserbot
+      email: goreleaserbot@example.com
     commit_msg_template: "Brew formula update for {{ .ProjectName }} version {{ .Tag }}"
-    directory: Formula
+    folder: Formula
     install: |
       bin.install "videoconv"
     test: |
