@@ -35,8 +35,8 @@ changelog:
 brews:
   - name: homebrew-tools
     commit_author:
-      name: goreleaserbot
-      email: goreleaserbot@example.com
+      name: yogeshbhutkar
+      email: pseudonetwork1001@gmail.com
     commit_msg_template: "Brew formula update for {{ .ProjectName }} version {{ .Tag }}"
     directory: Formula
     install: |
@@ -48,9 +48,9 @@ brews:
       name: homebrew-tools
       branch: main
       token: "{{ .Env.TAP_GITHUB_TOKEN }}"
-    git:
-      url: "git@github.com:yogeshbhutkar/homebrew-tools.git"
-      private_key: "{{ .Env.GIT_PRIVATE_KEY }}"
+      git:
+        url: "git@github.com:yogeshbhutkar/homebrew-tools.git"
+        private_key: "{{ .Env.GIT_PRIVATE_KEY }}"
 
 release:
   footer: >-
