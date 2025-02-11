@@ -48,6 +48,7 @@ brews:
       name: homebrew-tools
       branch: main
       token: "{{ .Env.TAP_GITHUB_TOKEN }}"
+      token_type: "github"
       git:
         url: "git@github.com:yogeshbhutkar/homebrew-tools.git"
         private_key: "{{ .Env.TAP_GITHUB_TOKEN }}"
