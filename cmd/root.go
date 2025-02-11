@@ -10,9 +10,9 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "mov2gif",
+	Use:   "videoconv",
 	Short: "Converts mov file type to gif using ffmpeg",
-	Long:  "mov2gif is a simple CLI tool to convert mov file type to gif using ffmpeg.",
+	Long:  "videoconv is a simple CLI tool to convert mov file type to gif using ffmpeg.",
 }
 
 func Execute() {

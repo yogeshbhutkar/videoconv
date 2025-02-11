@@ -1,10 +1,9 @@
 /*
-Copyright © 2025 NAME HERE <EMAIL ADDRESS>
-
+Copyright © 2025 Yogesh Bhutkar <yogeshbhutkar3@gmail.com>
 */
 package main
 
-import "github.com/yogeshbhutkar/mov2gif/cmd"
+import "github.com/yogeshbhutkar/videoconv/cmd"
 
 func main() {
 	cmd.Execute()

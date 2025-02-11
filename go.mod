@@ -1,4 +1,4 @@
-module github.com/yogeshbhutkar/mov2gif
+module github.com/yogeshbhutkar/videoconv
 
 go 1.23.3
 
