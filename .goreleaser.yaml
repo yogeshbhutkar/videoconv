@@ -35,9 +35,12 @@ changelog:
 brews:
 - name: videoconv
   homepage: https://github.com/yogeshbhutkar/homebrew-tools 
-  tap:
+  repository:
     owner: yogeshbhutkar
     name: homebrew-tools
+  commit_author:
+    name: yogeshbhutkar
+    email: pseudonetwork1001@gmail.com
 
 release:
   footer: >-
