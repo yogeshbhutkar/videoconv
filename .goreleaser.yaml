@@ -39,7 +39,6 @@ brews:
     repository:
       owner: yogeshbhutkar
       name: homebrew-tools
-      token: ${{ .Env.TAP_GITHUB_TOKEN }}
     commit_author:
       name: yogeshbhutkar
       email: pseudonetwork1001@gmail.com
