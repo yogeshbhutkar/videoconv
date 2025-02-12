@@ -35,8 +35,7 @@ changelog:
 brews:
   -
     name: videoconv
-    homepage: https://github.com/yogeshbhutkar/videoconv
-    skip_upload: false
+    homepage: https://github.com/yogeshbhutkar/homebrew-tools
     repository:
       owner: yogeshbhutkar
       name: homebrew-tools
