@@ -36,14 +36,13 @@ brews:
   -
     name: videoconv
     homepage: https://github.com/yogeshbhutkar/videoconv
-    skip_upload: false
     repository:
       owner: yogeshbhutkar
       name: homebrew-tools
       token: ${{ secrets.TAP_GITHUB_TOKEN }}
     commit_author:
       name: yogeshbhutkar
-      email: pseudonetwork1001@gmail.com
+      email: yogesh.bhutkar@rtcamp.com
 
 release:
   footer: >-
