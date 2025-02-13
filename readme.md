@@ -1,5 +1,7 @@
 # VideoConv
 
+![Demo](assets/videoconv.gif)
+
 A powerful CLI tool built with Go and FFmpeg for converting video files between different formats.
 
 ## Features
@@ -31,10 +33,18 @@ sudo apt-get install ffmpeg
 choco install ffmpeg
 ```
 
-### Install VideoConv
+### Install VideoConv (with brew)
 
 ```bash
-go install github.com/yourusername/videoconv@latest
+
+# Add the tap
+brew tap yogeshbhutkar/tools
+```
+
+```bash
+
+# Install the CLI
+brew install videoconv
 ```
 
 ## Usage
