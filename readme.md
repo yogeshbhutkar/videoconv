@@ -1,6 +1,6 @@
 # VideoConv
 
-![Demo](assets/videoconv-new.gif)
+![Demo](assets/videoconv-final.gif)
 
 A powerful CLI tool built with Go and FFmpeg for converting video files between different formats.
 
